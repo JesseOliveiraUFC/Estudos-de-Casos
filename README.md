@@ -20,7 +20,14 @@ O algoritmo consegue prever com uma média de 96% se um usuário vai comprar um 
 A boa precisão do aprendizado se dá, na maior parte, devido à simplicidade dos dados de treinamento que só possuem 3 colunas.
 Para modelos mais elaborados, com muitos dados de entrada, será necessário utilizar novos modelos de aprendizagem.
 
-> OBS.: Estarei estudando a parte teórica do método LinearSVC e as atualizações estarei postando aqui.
+_________________________________________________________
+### - Estudando um pouco sobre o método LinearSVC...
+
+ Como o nome sugere, o método LinearSVC define uma linha reta de separação entre os dados chamada de **Curva de Decisão** . Esta curva separa as classes de dados em duas e funciona bem para casos mais simples, onde podemos facilmente observar a linha de separação. A figura a seguir, mostra a curva de decisão tomada para alguns tipos de dados do exemplo seguinte, de Projetos de Sites.
+
+![](LinearSVC.png)
+
+ Podemos perceber que para este tipo de base de dados o método LinearSVC não é muito eficaz, necessitando desenvolver algoritmos que possuem uma Curva de Decisão que se adeque melhor aos dados utilizados.
 __________________________________________________________
 
 # 2 - Projetos de Sites
