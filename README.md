@@ -34,6 +34,8 @@ __________________________________________________________
 
 ### O Código está no arquivo `projetos_de_sites.py`
 
+> Usando o modelo LinearSVC
+
 Este é um estudo de caso de dados de projetos de sites e sua conclusão baseada no preço a ser pago pelas quantidades de horas de dedicação.
 
 Inicialmente, realizamos o tratamento da base dos dados. Mudamos os nomes das colunas, realizamos mapeamento para mudar a coluna de não-finalizados para finalizados (para garantir que 0 é False e 1 é True).
@@ -55,7 +57,7 @@ Definimos a baseline com o comando `baseline = np.ones()` e obtivemos uma precis
 
 Isso significa que nossa previsão ainda está longe de ser boa.
 
-> Em breve darei continuidade a métodos de melhoria desse algoritmo.
+> Estudando métodos de melhorar a estimativa.
 
 
 
